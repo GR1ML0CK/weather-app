@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "api.key",
+      "type": "java.lang.String",
+      "description": "The api needed for making requests to api.openweathermap.org."
+    },
+    {
+      "name": "cache.flush-key",
+      "type": "java.lang.String",
+      "description": "A secret key that will be used to validate against when requesting a cache flush. This will be used in requests to /api/v1/cacheflush?secret={cache.flush-key}."
+    },
+    {
+      "name": "cache.disabled",
+      "type": "java.lang.String",
+      "description": "Set this property to true to disable caching when app is started."
+    }
+  ]
+}
